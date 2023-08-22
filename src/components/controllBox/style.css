@@ -1,0 +1,84 @@
+.controlPanel {
+  padding: 30px 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.controlPanelTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.addlayer {
+  width: 100px;
+}
+
+.subOptions {
+  display: flex;
+  height: 0;
+  overflow: hidden;
+  transition: .3s ease;
+}
+
+.subOptions.active {
+  height: 120px;
+}
+
+.subOptions input {
+  width: 120px;
+}
+
+.Apply {
+  color: black;
+}
+
+.fileList {
+  width: 100%;
+  display: flex;
+}
+
+.fileList>div {
+  margin-left: auto;
+  display: flex;
+}
+
+.inputFile {
+  width: 65px;
+  overflow: hidden;
+  margin-left: auto;
+}
+
+.inputFile input[type="file"] {
+  opacity: 0;
+  cursor: pointer;
+  width: 65px;
+}
+
+.inputOption {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 10px;
+}
+
+.inputOption div {
+  width: 250px;
+}
+
+.fileList>div>button {
+  z-index: 0;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  transition: .5s ease;
+}
+
+.buttonDiv {
+  width: 200px;
+  align-items: flex-end;
+  display: flex;
+}
+
+.buttonDiv button {
+  height: 30px;
+}
